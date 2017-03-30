@@ -4,6 +4,7 @@ Python script to update Mandrill Email Templates plus its metadata in your Mandr
 
 The script will push the HTML + the Metadata to the Mandrill API thereby updating (read: OVERWRITING) the Templates in your Account with the data you provide.
 
+
 ## Usage
 
 The script uses the Mandrill template `slug` to identify templates. Make sure the name of the HTML files matches the `slug` of your template.
@@ -15,3 +16,7 @@ You need to specify in the script:
 
 Run with `python3 updateMandrillTemplates.py`.
 
+
+## Credits
+
+The script was written at eGym in Januar 2017. 
